@@ -1,0 +1,8 @@
+html
+  body
+    h1!= messageH1
+    form(action='/newCar', method='post')
+      input(name='modele', type='text', placeholder='modele')
+      input(name='marque', type='text', placeholder='marque')
+      input(name='couleur', type='text', placeholder='couleur')
+      input(type='submit', value='enregistrerPOST')
